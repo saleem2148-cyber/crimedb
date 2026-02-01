@@ -12,7 +12,15 @@
         <input type="date" id="incidentDate" required>
         <button type="submit">Save Record</button>
     </form>
-
+    const firebaseConfig = {
+      apiKey: "AIzaSyChPaUWLFWU7-kJNcZGax1LQUvPEq2lN5k",
+      authDomain: "crimedb-bf6a3.firebaseapp.com",
+      projectId: "crimedb-bf6a3",
+      storageBucket: "crimedb-bf6a3.firebasestorage.app",
+      messagingSenderId: "526894626586",
+      appId: "1:526894626586:web:1db3d1912f282a19165ea3",
+      measurementId: "G-VEHW3MEW8X"
+    };
     <hr>
     <h2>Recent Records</h2>
     <div id="recordList">Loading...</div>
@@ -50,4 +58,5 @@
       document.getElementById('recordList').innerHTML = html;
     </script>
 </body>
+
 </html>
